@@ -123,13 +123,13 @@ a {
   background-color: #f7f7f7;
 }
 
-.acount-title-box {
+.account-title-box {
   margin-top: 20px;
   position: relative;
   text-align: center;
 }
 
-.acount-title-box::before {
+.account-title-box::before {
   content: '';
   position: absolute;
   left: 0;
@@ -140,7 +140,7 @@ a {
   background-color: #ececec;
 }
 
-.acount-title-text{
+.account-title-text{
   display: inline-block;
   position: relative;
   padding: 0 10px;
@@ -317,14 +317,20 @@ input, select {
   height: 100px;
 }
 
-.acount-button {
+.account-button {
   padding: 13px;
   background-color: #01bfbd;
   color: #fff;
 }
 
-.acount-button:hover {
+.account-button:hover {
   background-color: #01a6a4;
+}
+
+.account-button:active {
+  background-color: #fff;
+  color: #01a6a4;
+  border: 1px solid #d9d9d9;
 }
 
 .footer-button {
@@ -333,6 +339,12 @@ input, select {
 
 .footer-text-box{
   margin: 32px 0 8px 0;
+}
+
+.footer-text-box a:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
 }
 
 .footer-text-box p:first-child {
